@@ -9,8 +9,8 @@
  The last line 
  `make xconfig` 
  will bring up the GUI for kernel configuration. Enable the ACM and cp210 ports: 
- ![](https://github.com/NVIDIA-Jetson/Electron/blob/master/common/kernelcp210.png)
- ![](https://github.com/NVIDIA-Jetson/Electron/blob/master/common/kernelacm.png)
+ ![](https://github.com/NVIDIA-Jetson/turtlebot3/blob/master/kernelcp210.png)
+ ![](https://github.com/NVIDIA-Jetson/turtlebot3/blob/master/kernelacm.png)
  
  Make sure to save your changes to the config file, and go through the rest of the instructions to finish making the kernel. If no errors occur, reboot the Jetson. Plug in your OpenCR board and Lidar, and `cd /dev` in terminal. If the kernel reconfiguration worked, you should be able to see 'ttyACM0' and 'ttyUSB0'. 
  
