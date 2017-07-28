@@ -63,6 +63,4 @@ When configuring the network, make sure that you specify the IP addresses of our
 
 After setting up the ROS navigation stack and discovering that the navigation works, but not well, how do you tune it?
 
-Setting up the Turtlebot3 took only one day, and generating a decent map took another few days, but tuning navigation and adding another level of autonomy by leaving Rviz was a 2 week adventure. 
-
 https://arxiv.org/pdf/1706.09068.pdf 
