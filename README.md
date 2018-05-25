@@ -51,8 +51,8 @@ Follow the instructions
 [here](http://www.jetsonhacks.com/2017/03/27/robot-operating-system-ros-nvidia-jetson-tx2/). 
 to install ROS kinetic on your TX2 and set up your catkin workspace.
 
-Follow the instructions on the Turtlebot3 wiki for the waffle from 6.3.1 and on, to install the Turtlebot3 dependencies and clone the repositories. 
-[here](http://turtlebot3.readthedocs.io/en/latest/sbc_software.html) 
+Follow the instructions on the Turtlebot3 wiki for the waffle from 6.3 and on, to install the Turtlebot3 dependencies and clone the repositories. 
+[here](http://emanual.robotis.com/docs/en/platform/turtlebot3/pc_setup/#install-dependent-packages)
 
 When configuring the network, make sure that you specify the IP addresses of our ROS_MASTER and your ROS_HOST correctly. On your Jetson, you want to make the ROS_MASTER_URI the IP of your remote host, and the ROS_HOSTNAME the IP of your Jetson. After modifying the bashrc file, make sure to 
  `source ~/.bashrc`
